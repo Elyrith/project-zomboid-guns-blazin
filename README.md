@@ -25,3 +25,6 @@ Known Issues:
 It should work with most mods that match the criteria above.
 
 I made this just so a bunch of friends and I could load up with weapons, set the population super-high, and fight our way to victory/failure.
+
+
+You can find this mod on the Steam Workshop here: https://steamcommunity.com/sharedfiles/filedetails/?id=2937529325
