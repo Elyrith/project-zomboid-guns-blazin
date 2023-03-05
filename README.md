@@ -10,17 +10,18 @@ Changes:
 2. For any item that has DisplayCategory of "Weapon":
  1. "ConditionLowerChanceOneIn" = 100000
  2. "JamGunChance" = 0
-3. For any item with "Katana" or "Machete" in the name:
+3. For any item with "Shotgun" in the name:
+ 1. "MaxHitCount" = 10 (only matters if you turn multi-hit on in the sandbox settings)
+4. For any item with "Katana" or "Machete" in the name:
  1. "ConditionLowerChanceOneIn" = 100000"
  2. "MaxRange" = "MaxRange" * 5
  3. "MaxHitCount" = 10 (only matters if you turn multi-hit on in the sandbox settings)
  4. "MinAngle" = 0 (hit nearest visibile enemy/enemies)
 
 Known Issues:
-1. For some reason, not every weapon has a DisplayCategory of "Weapon", even though the wiki says they do.
- 1. This is as of 2023-02-27.
-2. Some of the katana changes only work on items that are created after you activate the mod.
+1. For some reason, not every weapon has a DisplayCategory of "Weapon". Some of them are "Cooking" (like Baking Pan). I'm working on this.
+2. The katana and machete MaxRange change only work on items that are created after you activate the mod.
 
 It should work with most mods that match the criteria above.
 
-I made this just so a bunch of friends and I could load up with weapons, set the population super-high, and shoot our way to victory/failure.
+I made this just so a bunch of friends and I could load up with weapons, set the population super-high, and fight our way to victory/failure.
