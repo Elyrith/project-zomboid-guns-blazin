@@ -6,8 +6,8 @@ function GunsBlazin()
         if item:getDisplayCategory() == "Ammo" then
             item:DoParam("Weight = 0")
         elseif item:getDisplayCategory() == "Weapon" then
-            item:DoParam("ConditionLowerChanceOneIn = 100000")
-            item:DoParam("JamGunChance = 0")
+            item:DoParam("ConditionLowerChanceOneIn = 9999999")
+            item:DoParam("JamGunChance = 9999999")
         end
         if string.match(item:getName(), "Shotgun") then
             item:DoParam("MaxHitCount = 10")
@@ -19,6 +19,11 @@ function GunsBlazin()
             item:DoParam("MaxHitCount = 10")
             item:DoParam("MinAngle = 0")
         elseif string.match(item:getName(), "Machete") then
+            local maxRange = item:getMaxRange() * 5
+            item:DoParam("MaxRange = "..maxRange)
+            item:DoParam("MaxHitCount = 10")
+            item:DoParam("MinAngle = 0")
+        elseif string.match(item:getName(), "Sword") then
             local maxRange = item:getMaxRange() * 5
             item:DoParam("MaxRange = "..maxRange)
             item:DoParam("MaxHitCount = 10")
