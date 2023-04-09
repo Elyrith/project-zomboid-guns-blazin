@@ -6,7 +6,7 @@ function GunsBlazin()
         if item:getDisplayCategory() == "Ammo" then
             item:DoParam("Weight = 0")
         elseif item:getDisplayCategory() == "Weapon" then
-            item:DoParam("ConditionLowerChanceOneIn = 9999999")
+            item:DoParam("ConditionLowerChanceOneIn = 100000")
             item:DoParam("JamGunChance = 0")
         end
         if string.match(item:getName(), "Shotgun") then
