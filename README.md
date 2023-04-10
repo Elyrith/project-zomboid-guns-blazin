@@ -7,7 +7,7 @@ This mod makes some changes to items to allow for a more more 'action movie' sty
 Changes:
 1. For any item with DisplayCategory of "Ammo"
  1. "Weight" = 0
-2. For any item that has DisplayCategory of "Weapon":
+2. For any item that has ConditionLowerChanceOneIn:
  1. "ConditionLowerChanceOneIn" = 999999
  2. "JamGunChance" = 0
 3. Any "Shotgun": (based on SwingSound)
